@@ -20,7 +20,6 @@ Built with the tools and technologies:
 - [Features](#features)
 - [Technologies-Used](#technologies-used)
 - [Project-Structure](#project-structure)
-- [License](#license)
 
 ---
 
@@ -47,20 +46,13 @@ Make sure you have installed:
 
 ```bash
 pip install pandas matplotlib seaborn
+
 Running the Project
-Clone the repository:
-
-bash
-Copy
-Edit
+1. Clone the repository:
 git clone https://github.com/AndrewIsaCoder/Jupyter-analyze-online-store-data.git
-Open the notebook:
-
-bash
-Copy
-Edit
+2. Open the notebook:
 jupyter notebook
-Run each cell to generate the analysis and visualizations.
+3. Run each cell or RUN ALL to generate the analysis and visualizations.
 
 Features
 Loads and cleans product rating datasets
@@ -83,11 +75,9 @@ Pandas – data analysis
 Matplotlib / Seaborn – data visualization
 
 Project Structure
-bash
-Copy
-Edit
+
 📂 Jupyter-analyze-online-store-data
- ┣ 📜 analysis_notebook.ipynb     # Main Jupyter Notebook
+ ┣ 📜 Stoian_Andrei_task2.ipynb   # Main Jupyter Notebook with analysis & visualizations
  ┣ 📜 README.md                   # Project documentation
- ┣ 📂 data/                        # (Optional) Dataset folder
- ┗ 📜 requirements.txt            # Dependencies
+ ┣ 📜 .gitignore                   # Ignored files/folders
+ ┗ 📂 data/                        # (Optional) Dataset folder
